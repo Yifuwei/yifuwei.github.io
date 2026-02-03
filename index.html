@@ -1,207 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yifu Wei | PhD Researcher in Operational Research</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-color: #2c3e50;
-            --accent-color: #005f73;
-            --secondary-color: #e9ecef;
-            --text-color: #333;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yifu Wei | PhD Candidate in Operational Research & Optimisation</title>
 
-        body {
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            line-height: 1.7;
-            color: var(--text-color);
-            background-color: #fafafa;
-            margin: 0;
-        }
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --accent-color: #005f73;
+      --secondary-color: #e9ecef;
+      --text-color: #333;
+    }
 
-        header {
-            background: white;
-            border-bottom: 1px solid #ddd;
-            padding: 60px 0 40px 0;
-            text-align: center;
-        }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: var(--text-color);
+      background-color: #fafafa;
+      margin: 0;
+    }
 
-        .profile-img {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid white;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
 
-        h1 { margin: 10px 0; color: var(--primary-color); font-size: 2.5rem; }
-        .subtitle { color: #666; font-size: 1.2rem; margin-bottom: 20px; }
+    header {
+      background: white;
+      border-bottom: 1px solid #ddd;
+      padding: 60px 0 40px 0;
+      text-align: center;
+    }
 
-        .social-links a {
-            margin: 0 12px;
-            color: var(--primary-color);
-            font-size: 1.5rem;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
 
-        .social-links a:hover { color: var(--accent-color); }
+    h1 { margin: 10px 0; color: var(--primary-color); font-size: 2.5rem; }
+    .subtitle { color: #666; font-size: 1.2rem; margin-bottom: 20px; }
 
-        h2 {
-            border-bottom: 2px solid var(--accent-color);
-            display: inline-block;
-            padding-bottom: 5px;
-            margin-top: 40px;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 1.3rem;
-        }
+    .social-links a {
+      margin: 0 12px;
+      color: var(--primary-color);
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
 
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
-            margin: 20px 0;
-        }
+    .social-links a:hover { color: var(--accent-color); }
 
-        .skill-container { display: flex; flex-wrap: wrap; gap: 10px; }
-        .skill-tag {
-            background: var(--secondary-color);
-            padding: 6px 14px;
-            border-radius: 6px;
-            font-size: 0.85rem;
-            font-weight: 500;
-        }
+    h2 {
+      border-bottom: 2px solid var(--accent-color);
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      color: var(--primary-color);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 1.3rem;
+    }
 
-        .pub-item { margin-bottom: 20px; }
-        .pub-title { font-weight: 600; color: var(--primary-color); }
-        .pub-journal { color: #005f73; font-style: italic; }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+      margin: 20px 0;
+    }
 
-        .edu-item, .exp-item { margin-bottom: 15px; }
-        .date { float: right; color: #888; font-size: 0.9rem; }
+    .skill-container { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skill-tag {
+      background: var(--secondary-color);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
 
-        footer { text-align: center; padding: 50px; color: #999; font-size: 0.8rem; }
+    .pub-item { margin-bottom: 20px; }
+    .pub-title { font-weight: 600; color: var(--primary-color); }
+    .pub-journal { color: #005f73; font-style: italic; }
 
-        @media (max-width: 600px) {
-            .date { float: none; display: block; margin-top: 5px; }
-        }
-    </style>
+    .edu-item, .exp-item { margin-bottom: 15px; }
+    .date { float: right; color: #888; font-size: 0.9rem; }
+
+    .mini-note { font-size: 0.92rem; color: #555; margin: 10px 0 0; }
+
+    footer { text-align: center; padding: 50px; color: #999; font-size: 0.8rem; }
+
+    @media (max-width: 600px) {
+      .date { float: none; display: block; margin-top: 5px; }
+    }
+  </style>
 </head>
+
 <body>
 
 <header>
-    <div class="container">
-        <img src="profile.jpeg" alt="Yifu Wei" class="profile-img">
-        <h1>Yifu Wei</h1>
-        <p class="subtitle">PhD Candidate in Operational Research & Optimisation</p>
-        <p style="max-width: 600px; margin: 0 auto; color: #777;">University of Leeds | UK Atomic Energy Authority (UKAEA)</p>
-        
-        <div class="social-links">
-            <a href="mailto:pmywe@leeds.ac.uk" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://linkedin.com/in/wei-yifu-69537622b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/Yifuwei" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
+  <div class="container">
+    <!-- Make sure profile.jpeg is in the same folder as index.html -->
+    <img src="profile.jpeg" alt="Yifu Wei" class="profile-img"
+         onerror="this.onerror=null;this.src='https://via.placeholder.com/180?text=Yifu+Wei';">
+
+    <h1>Yifu Wei</h1>
+    <p class="subtitle">PhD Candidate in Operational Research & Optimisation</p>
+    <p style="max-width: 720px; margin: 0 auto; color: #777;">
+      University of Leeds · UK Atomic Energy Authority (UKAEA / RACE) · Fully funded by UKAEA & UKRI (EPSRC)
+    </p>
+
+    <div class="social-links" style="margin-top: 18px;">
+      <a href="mailto:pmywe@leeds.ac.uk" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://linkedin.com/in/wei-yifu-69537622b/" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Yifuwei" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
     </div>
+
+    <p style="margin-top: 18px; color:#666; font-size: 0.95rem;">
+      Manchester, UK · <a href="tel:+447354751460" style="color:#666; text-decoration:none;">+44 07354751460</a>
+    </p>
+  </div>
 </header>
 
 <div class="container">
-    
-    <section id="about">
-        <h2>Personal Statement</h2>
-        <div class="card">
-            <p>I am a doctoral researcher specializing in <b>Operational Research</b>, with a core focus on <b>cutting and packing optimization algorithms</b>. My research involves developing cutting-edge methodologies for robotic disassembly and packing of irregular-shaped tokamak waste components, supported by a full studentship from UKAEA and UKRI.</p>
-            <p>With over 5 years of Python experience, I focus on GPU-accelerated (CUDA) 3D bin packing and high-performance computing (HPC) solutions for complex engineering problems.</p>
-        </div>
-    </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="card">
-            <div class="exp-item">
-                <span class="date">Oct 2022 - Present</span>
-                <strong>Funded PhD Researcher</strong><br>
-                <em>UK Atomic Energy Authority (UKAEA) / RACE</em>
-                <p style="font-size: 0.9rem; color: #555;">Collaborating on robot-assisted decommissioning planning, delivering advanced algorithms for radioactive component handling.</p>
-            </div>
-        </div>
-    </section>
+  <section id="about">
+    <h2>Personal Statement</h2>
+    <div class="card">
+      <p>
+        I am a doctoral researcher in <b>Operational Research and Optimisation</b>, specialising in <b>large-scale modelling, simulation, and optimisation</b>
+        of complex engineering systems under real-world constraints. I develop high-performance algorithms, simulation frameworks, and decision-support tools to
+        improve system efficiency, optimise overall cost, and analyse performance across scenarios.
+      </p>
+      <p>
+        My current PhD project focuses on <b>optimal cutting, grasping and packing</b> of <b>irregular-shaped tokamak waste components</b>, aligned with
+        digital-twin style decision support for large-scale decommissioning.
+      </p>
+      <p class="mini-note">
+        Interests: Digital twin modelling · Optimisation · Data-driven methods · Energy/transport systems · Shipping decarbonisation
+      </p>
+    </div>
+  </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="card">
-            <div class="edu-item">
-                <span class="date">2022 - 2026 (Exp.)</span>
-                <strong>PhD in Operational Research and Optimisation</strong><br>
-                University of Leeds
-            </div>
-            <div class="edu-item">
-                <span class="date">2021 - 2022</span>
-                <strong>MSc in Supply Chain Management and Logistics</strong><br>
-                University of Southampton
-            </div>
-        </div>
-    </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <div class="exp-item">
+        <span class="date">Oct 2022 – Present</span>
+        <strong>Funded PhD Researcher</strong><br>
+        <em>UK Atomic Energy Authority (UKAEA), RACE</em>
+        <p class="mini-note">
+          • Collaborated with UKAEA RACE through multiple on-site research visits, gaining first-hand understanding of real operational constraints.<br>
+          • Developed optimisation and simulation frameworks under multiple operational and engineering constraints for decision-making in infrastructure decommissioning.<br>
+          • Delivered an internal seminar presenting novel and ML-based algorithms for decision-support software to interdisciplinary engineers and scientists.<br>
+          • Designed and deployed large-scale, reproducible experiments on HPC with parallel computation across CPU and GPU architectures.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="card skill-container">
-            <span class="skill-tag">Python (NumPy, Pandas, Numba, Scipy)</span>
-            <span class="skill-tag">CUDA/GPU Computation</span>
-            <span class="skill-tag">HPC (Slurm)</span>
-            <span class="skill-tag">Math Programming Modelling</span>
-            <span class="skill-tag">Heuristics & Simulation</span>
-            <span class="skill-tag">Data Visualisation (Plotly, Open3D)</span>
-            <span class="skill-tag">Linux & Git</span>
-            <span class="skill-tag">LaTeX & Markdown</span>
-        </div>
-    </section>
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <div class="edu-item">
+        <span class="date">Sep 2022 – Jul 2026 (Exp.)</span>
+        <strong>PhD (CDT) in Operational Research and Optimisation</strong><br>
+        University of Leeds<br>
+        <span class="mini-note">
+          Thesis (expected): <i>Optimal cutting, grasping and packing of irregular-shaped tokamak waste components</i><br>
+          Fully funded by UKAEA (RACE) and UKRI (EPSRC).
+        </span>
+      </div>
 
-    <section id="publications">
-        <h2>Selected Publications</h2>
-        <div class="card">
-            <div class="pub-item">
-                <div class="pub-title">Voxel-Based GPU-Empowered 3D Irregular Bin Packing Stream with Metaheuristics for Tokamak Fusion Reactor Decommissioning</div>
-                <div class="pub-journal">Submitting to Operations Research</div>
-            </div>
-            <div class="pub-item">
-                <div class="pub-title">Packing Irregular Polygons in A Shape Optimized Convex Container</div>
-                <div class="pub-journal">Accepted, Journal of Global Optimisation</div>
-            </div>
-            <div class="pub-item">
-                <div class="pub-title">Location of chief police officers in the state of Pernambuco, Brazil, using OCBA</div>
-                <div class="pub-journal">Proceedings of the 11th Simulation Workshop (SW 2023)</div>
-            </div>
-        </div>
-    </section>
+      <div class="edu-item" style="margin-top:16px;">
+        <span class="date">Feb 2021 – Apr 2022</span>
+        <strong>MSc in Supply Chain Management and Logistics</strong><br>
+        University of Southampton<br>
+        <span class="mini-note">
+          Distinction (74.5/100) · Dissertation (84/100)<br>
+          Modules: Python (98/100), Computational Method for Logistics (96/100)
+        </span>
+      </div>
+    </div>
+  </section>
 
-    <section id="awards">
-        <h2>Awards</h2>
-        <div class="card">
-            <ul style="padding-left: 20px; margin: 0;">
-                <li>Boeing Award for Excellence / Dissertation Prize</li>
-                <li>Dean's List Award, University of Southampton</li>
-                <li>Full PhD Scholarship (UKAEA & University of Leeds)</li>
-            </ul>
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+      <div class="skill-container">
+        <span class="skill-tag">Python (5+ years)</span>
+        <span class="skill-tag">Simulation (SimPy)</span>
+        <span class="skill-tag">Math Programming (Pyomo)</span>
+        <span class="skill-tag">GPU Acceleration (Numba, CUDA)</span>
+        <span class="skill-tag">HPC Parallel Computing (CPU/GPU)</span>
+        <span class="skill-tag">Data (Pandas, Scikit-learn)</span>
+        <span class="skill-tag">Visualisation (Plotly, Matplotlib, Open3D)</span>
+        <span class="skill-tag">Reproducible Workflows</span>
+        <span class="skill-tag">Git · Linux</span>
+        <span class="skill-tag">LaTeX · Markdown</span>
+        <span class="skill-tag">Cloud Basics (AWS, GCP)</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <div class="card">
+      <div class="pub-item">
+        <div class="pub-title">
+          Wei, Y., Lamas-Fernandez, C., Coutinho, W. P., & Currie, C. (2023)
+          — Location of chief police officers in the state of Pernambuco, Brazil, using OCBA
         </div>
-    </section>
+        <div class="pub-journal">
+          Proceedings of the 11th Simulation Workshop (SW 2023) · Operational Research Society · doi:10.36819/SW23.019
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Sequential packing of polygonal items using rectangular envelope</div>
+        <div class="pub-journal">Accepted conference paper</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Packing Irregular Polygons in a Shape-Optimised Convex Container</div>
+        <div class="pub-journal">Accepted, Journal of Global Optimisation</div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Voxel-Based GPU-Empowered 3D Irregular Bin Packing Stream with Metaheuristics for Tokamak Fusion Reactor Decommissioning</div>
+        <div class="pub-journal">Submitting to <i>Operations Research</i> (top journal)</div>
+      </div>
+
+      <div class="pub-item" style="margin-bottom:0;">
+        <div class="pub-title">Optimal cutting, grasping and packing of irregular-shaped tokamak waste components</div>
+        <div class="pub-journal">Submitting to <i>Operations Research</i> (top journal)</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="presentations">
+    <h2>Presentations</h2>
+    <div class="card">
+      <div class="pub-item">
+        <div class="pub-title">2026</div>
+        <div class="mini-note">GREEN Winter School (York) · ESICUP (Natal, planned) · IFORS (Vienna, planned)</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">2025</div>
+        <div class="mini-note">EURO (University of Leeds) · ESICUP (LECTRA / University of Bordeaux) · GREEN Winter School (York)</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">2024</div>
+        <div class="mini-note">EURO (University of Copenhagen) · ESICUP (University of Minho) · GREEN Winter School (York)</div>
+      </div>
+      <div class="pub-item" style="margin-bottom:0;">
+        <div class="pub-title">2023</div>
+        <div class="mini-note">GREEN Winter School (York)</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards">
+    <h2>Awards</h2>
+    <div class="card">
+      <ul style="padding-left: 20px; margin: 0;">
+        <li>Full PhD scholarship from UKAEA and UKRI (EPSRC)</li>
+        <li>Boeing-CORMSIS dissertation prize, University of Southampton</li>
+        <li>Southampton Business School Dissertation Prize</li>
+        <li>Dean's List prize, University of Southampton</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="additional">
+    <h2>Additional</h2>
+    <div class="card">
+      <div class="pub-item">
+        <div class="pub-title">Languages</div>
+        <div class="mini-note">Native Mandarin Chinese · Fluent English · Elementary Japanese and French</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Teaching & Support</div>
+        <div class="mini-note">Trained teaching assistant and lab assistant at the University of Leeds</div>
+      </div>
+      <div class="pub-item">
+        <div class="pub-title">Leadership & Outreach</div>
+        <div class="mini-note">
+          Chair of a university music society (2 years) · Community volunteering (industry museum) · Fundraising for NSPCC and Teenage Cancer Trust
+        </div>
+      </div>
+    </div>
+  </section>
 
 </div>
 
 <footer>
-    <p>&copy; 2026 Yifu Wei. Manchester, UK. Built with HTML/CSS.</p>
+  <p>&copy; 2026 Yifu Wei. Manchester, UK. Built with HTML/CSS on GitHub Pages.</p>
 </footer>
 
 </body>
 </html>
+
