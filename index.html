@@ -1,1 +1,207 @@
-**Yifu Wei** 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yifu Wei | PhD Researcher in Operational Research</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #005f73;
+            --secondary-color: #e9ecef;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: #fafafa;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background: white;
+            border-bottom: 1px solid #ddd;
+            padding: 60px 0 40px 0;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 { margin: 10px 0; color: var(--primary-color); font-size: 2.5rem; }
+        .subtitle { color: #666; font-size: 1.2rem; margin-bottom: 20px; }
+
+        .social-links a {
+            margin: 0 12px;
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover { color: var(--accent-color); }
+
+        h2 {
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 1.3rem;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+            margin: 20px 0;
+        }
+
+        .skill-container { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-tag {
+            background: var(--secondary-color);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .pub-item { margin-bottom: 20px; }
+        .pub-title { font-weight: 600; color: var(--primary-color); }
+        .pub-journal { color: #005f73; font-style: italic; }
+
+        .edu-item, .exp-item { margin-bottom: 15px; }
+        .date { float: right; color: #888; font-size: 0.9rem; }
+
+        footer { text-align: center; padding: 50px; color: #999; font-size: 0.8rem; }
+
+        @media (max-width: 600px) {
+            .date { float: none; display: block; margin-top: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="profile.jpg" alt="Yifu Wei" class="profile-img">
+        <h1>Yifu Wei</h1>
+        <p class="subtitle">PhD Candidate in Operational Research & Optimisation</p>
+        <p style="max-width: 600px; margin: 0 auto; color: #777;">University of Leeds | UK Atomic Energy Authority (UKAEA)</p>
+        
+        <div class="social-links">
+            <a href="mailto:pmywe@leeds.ac.uk" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/wei-yifu-69537622b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Yifuwei" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    
+    <section id="about">
+        <h2>Personal Statement</h2>
+        <div class="card">
+            [cite_start]<p>I am a doctoral researcher specializing in <b>Operational Research</b>, with a core focus on <b>cutting and packing optimization algorithms</b>[cite: 13]. [cite_start]My research involves developing cutting-edge methodologies for robotic disassembly and packing of irregular-shaped tokamak waste components, supported by a full studentship from UKAEA and UKRI[cite: 44, 46].</p>
+            [cite_start]<p>With over 5 years of Python experience, I focus on GPU-accelerated (CUDA) 3D bin packing and high-performance computing (HPC) solutions for complex engineering problems[cite: 14, 15].</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <div class="exp-item">
+                <span class="date">Oct 2022 - Present</span>
+                <strong>Funded PhD Researcher</strong><br>
+                <em>UK Atomic Energy Authority (UKAEA) / RACE</em>
+                [cite_start]<p style="font-size: 0.9rem; color: #555;">Collaborating on robot-assisted decommissioning planning, delivering advanced algorithms for radioactive component handling[cite: 43, 44].</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <div class="edu-item">
+                <span class="date">2022 - 2026 (Exp.)</span>
+                <strong>PhD in Operational Research and Optimisation</strong><br>
+                [cite_start]University of Leeds [cite: 46]
+            </div>
+            <div class="edu-item">
+                <span class="date">2021 - 2022</span>
+                <strong>MSc in Supply Chain Management and Logistics</strong><br>
+                [cite_start]University of Southampton [cite: 47]
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="card skill-container">
+            <span class="skill-tag">Python (NumPy, Pandas, Numba, Scipy)</span>
+            <span class="skill-tag">CUDA/GPU Computation</span>
+            <span class="skill-tag">HPC (Slurm)</span>
+            <span class="skill-tag">Math Programming Modelling</span>
+            <span class="skill-tag">Heuristics & Simulation</span>
+            <span class="skill-tag">Data Visualisation (Plotly, Open3D)</span>
+            <span class="skill-tag">Linux & Git</span>
+            <span class="skill-tag">LaTeX & Markdown</span>
+        </div>
+    </section>
+
+    <section id="publications">
+        <h2>Selected Publications</h2>
+        <div class="card">
+            <div class="pub-item">
+                <div class="pub-title">Voxel-Based GPU-Empowered 3D Irregular Bin Packing Stream with Metaheuristics for Tokamak Fusion Reactor Decommissioning</div>
+                [cite_start]<div class="pub-journal">Submitting to Operations Research [cite: 73]</div>
+            </div>
+            <div class="pub-item">
+                <div class="pub-title">Packing Irregular Polygons in A Shape Optimized Convex Container</div>
+                [cite_start]<div class="pub-journal">Accepted, Journal of Global Optimisation [cite: 72]</div>
+            </div>
+            <div class="pub-item">
+                <div class="pub-title">Location of chief police officers in the state of Pernambuco, Brazil, using OCBA</div>
+                [cite_start]<div class="pub-journal">Proceedings of the 11th Simulation Workshop (SW 2023) [cite: 69, 70]</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards">
+        <h2>Awards</h2>
+        <div class="card">
+            <ul style="padding-left: 20px; margin: 0;">
+                [cite_start]<li>Boeing Award for Excellence / Dissertation Prize [cite: 56, 77]</li>
+                [cite_start]<li>Dean's List Award, University of Southampton [cite: 58, 79]</li>
+                [cite_start]<li>Full PhD Scholarship (UKAEA & University of Leeds) [cite: 76]</li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Yifu Wei. [cite_start]Manchester, UK[cite: 6]. Built with HTML/CSS.</p>
+</footer>
+
+</body>
+</html>
